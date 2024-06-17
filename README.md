@@ -5,4 +5,4 @@
 - ```gcloud auth configure-docker```
 - ```docker push gcr.io/[PROJECT-ID]/express-cloudrun```
 
-Congrats! let setting on cloud run use this image 
+Congrats! let setting on Cloud Run, this image will show in Artifact Registry 

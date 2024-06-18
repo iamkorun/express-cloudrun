@@ -6,6 +6,7 @@
 - ```gcloud artifacts repositories create [REPOSITORY_NAME] --repository-format=docker --location=[LOCATION]```
 - ```gcloud auth configure-docker [LOCATION]-docker.pkg.dev```
 - ```docker build -t [LOCATION]-docker.pkg.dev/[PROJECT-ID]/[REPOSITORY_NAME]/[IMAGE_NAME]:[TAG] .```
+/// FOR MAC M1
 - ```docker buildx build --platform linux/amd64 -t [LOCATION]-docker.pkg.dev/[PROJECT-ID]/[REPOSITORY_NAME]/[IMAGE_NAME]:[TAG] .```
 - ```docker push [LOCATION]-docker.pkg.dev/[PROJECT-ID]/[REPOSITORY_NAME]/[IMAGE_NAME]:[TAG]```
 

@@ -7,7 +7,7 @@
 - ```gcloud auth configure-docker [LOCATION]-docker.pkg.dev```
 - ```docker build -t [LOCATION]-docker.pkg.dev/[PROJECT-ID]/[REPOSITORY_NAME]/[IMAGE_NAME]:[TAG] .```
   
-  For mac m1 buid use below command instead
+  For mac m1 build use below command instead
 
 - ```docker buildx build --platform linux/amd64 -t [LOCATION]-docker.pkg.dev/[PROJECT-ID]/[REPOSITORY_NAME]/[IMAGE_NAME]:[TAG] .```
 
